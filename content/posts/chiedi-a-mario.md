@@ -25,15 +25,15 @@ Funziona finché Mario è alla scrivania. Smette di funzionare quando Mario va i
 
 A quel punto le quattro domande di lunedì mattina non hanno risposta. O peggio: hanno risposte diverse a seconda di chi si chiede.
 
-## Quello che succede davvero
+## Cosa succede
 
-Quando non c'è un processo documentato, la conoscenza non sparisce — si disperde. Si frammenta tra le persone che erano in sala quando si è deciso qualcosa, nelle email di tre anni fa che nessuno riesce a trovare, nei file su SharePoint che hanno nomi tipo `procedura_DEFINITIVA_v3_USARE_QUESTA.docx`.
+Quando non c'è un processo documentato, la conoscenza non sparisce, ma viene reinterpretata, riscritta (non scritta), modificata a seconda delle necessità individuali. Si frammenta tra le persone che erano in sala quando si è deciso qualcosa, nelle email di tre anni fa che nessuno riesce a trovare, nei file su SharePoint che hanno nomi tipo `procedura_DEFINITIVA_v3_USARE_QUESTA.docx`.
 
 ![Come funziona la gestione della conoscenza senza documentazione](https://kroki.io/plantuml/svg/JO-nRWCn34DtVmMHwRBS1pX3KWJerclw1n5yCYB0jWBBNlhrjM_gHX0KdtYpHhNrdDmXdF_fb48lYl0ItXcdksQ62I9TJnSd4SiNLL7m4rBGOvGWUZsZlRXWCNcU7U3lyrf0EC8hFdlv5IsqNXmdOon5Zzp6PfEM54Oh7bGaw0oLNQBpZphehGb6rwwXPoxZJHu1ltrl_oraacb_f4HuLpMJJ7wi6W22DQqouKEytMsqpyb_)
 
 Chi arriva nuovo non sa dove cercare. Chi c'è da poco sa che esiste qualcosa ma non sa se è aggiornato. Chi c'è da tanto sa come funziona ma non l'ha mai scritto perché "si sa come funziona".
 
-Il risultato pratico: ogni volta che qualcuno fa una cosa per la prima volta, riparte quasi da zero. Chiede in giro, riceve risposte parziali, ricostruisce il percorso per tentativi. Poi lo dimentica, perché non lo ha scritto da nessuna parte. E il ciclo ricomincia.
+Il risultato: ogni volta che qualcuno fa una cosa per la prima volta, riparte quasi da zero. Chiede in giro, riceve risposte parziali, ricostruisce il percorso per tentativi. Poi lo dimentica, perché non lo ha scritto da nessuna parte. E il ciclo ricomincia spesso dopo che è stato eseguito male o sbagliato.
 
 ## Il vero costo
 
@@ -41,13 +41,13 @@ Non è un problema astratto di "gestione della conoscenza". Ha un costo concreto
 
 Ogni volta che qualcuno passa un'ora a ricostruire qualcosa che esiste già nella testa di un collega, quella è un'ora persa. Ogni volta che un processo viene eseguito in modo diverso da due persone diverse perché nessuno ha mai scritto qual è il modo corretto, si introduce variabilità che prima o poi produce un errore. Ogni volta che un nuovo collega impiega tre mesi invece di tre settimane per diventare operativo, il delta è in gran parte spiegato dall'assenza di documentazione.
 
-Un reparto IT che dipende da Mario per funzionare non scala. Non regge il turnover. Non sopravvive alla crescita.
+Un reparto IT che dipende da Mario per funzionare non scala. Non regge il turnover. Non sopravvive alla crescita. E questo vale per tutti gli altri reparti.
 
 ## Documentare non è produrre carta
 
 La reazione comune a questo punto è: "Sì, ma scrivere i processi richiede tempo, nessuno li aggiorna, finiscono nel cassetto."
 
-È vero. Succede spesso. Ma non è un problema della documentazione — è un problema di metodo.
+È vero. Succede spesso. Ma non è un problema della documentazione, è un problema di metodo.
 
 Un documento di processo che finisce nel cassetto ha quasi sempre uno di questi difetti: è scritto al livello sbagliato di dettaglio, non ha un owner chiaro, non è stato pensato per il pubblico che dovrebbe usarlo, oppure è stato prodotto una volta sola come esercizio burocratico senza nessun piano di manutenzione.
 

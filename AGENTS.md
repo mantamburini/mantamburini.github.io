@@ -98,6 +98,7 @@ Non serve architettare il contenuto in sezioni e sottosezioni come un manuale te
 **Tono e stile**: vedi sezione dedicata sotto.
 
 **Temi ricorrenti**:
+
 - Ciclo di vita di un documento di processo
 - Differenza tra processo, procedura, policy
 - Il formato come scelta architetturale, non estetica
