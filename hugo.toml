@@ -1,6 +1,6 @@
 baseURL = "https://mantamburini.github.io/"
 languageCode = "it-it"
-title = "Processi e Procedure"
+title = "Quando scrivere serve"
 theme = "PaperMod"
 enableRobotsTXT = true
 buildDrafts = false
@@ -20,8 +20,22 @@ buildFuture = false
   hidemeta = false
 
   [params.homeInfoParams]
-    Title = "HOMEPAGE"
-    Content = "Partiamo da qui"
+    Title = "Lo chiedo a Mario"
+    Content = """
+"Chiedi a Mario."
+
+È la risposta che senti quando qualcuno si ferma alla scrivania: "Come si fa?", "Chi se ne occupa?", "Questo caso come lo gestiamo?"
+
+Mario è il collega che sa tutto. Non perché abbia un manuale, ma perché c'è da quindici anni e ha visto tutto.
+
+Funziona, fino a quando Mario non va in ferie. O cambia lavoro. O si ammala.
+
+La conoscenza che Mario ha in testa vale quanto un processo documentato, ma con un problema: appena Mario esce dalla porta, quella conoscenza non è più accessibile.
+
+Documentare un processo non significa produrre carta da archiviare. Significa rendere visibile come funziona l'azienda. Trasformare la conoscenza personale in conoscenza condivisa. Permettere che un processo si possa esaminare, discutere e migliorare, invece di sopravvivere solo nella testa di chi l'ha ereditato.
+
+Questo blog parla di questo: di come pensare, strutturare e mantenere la documentazione di processo in un reparto IT. Non di strumenti, non di template. Di metodo. Per chi ha un Mario in ufficio e vuole smettere di dipendere da lui.
+    """
 
 [markup]
   [markup.goldmark]
