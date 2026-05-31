@@ -1,6 +1,6 @@
 baseURL = "https://mantamburini.github.io/"
 languageCode = "it-it"
-title = "TITOLO DEL BLOG"
+title = "Processi e Procedure"
 theme = "PaperMod"
 enableRobotsTXT = true
 buildDrafts = false
@@ -8,7 +8,7 @@ buildFuture = false
 
 [params]
   author = "Marcello Anselmi Tamburini"
-  description = "DESCRIZIONE BREVE DEL BLOG"
+  description = "Quando scrivere serve"
   defaultTheme = "auto"         # light / dark / auto
   ShowReadingTime = true
   ShowShareButtons = false
@@ -20,8 +20,8 @@ buildFuture = false
   hidemeta = false
 
   [params.homeInfoParams]
-    Title = "TITOLO HOMEPAGE"
-    Content = "TESTO BREVE HOMEPAGE"
+    Title = "HOMEPAGE"
+    Content = "Partiamo da qui"
 
 [markup]
   [markup.goldmark]
