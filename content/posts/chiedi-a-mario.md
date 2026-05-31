@@ -1,7 +1,7 @@
 ---
 title: "Chiedi a Mario"
 date: 2026-05-31
-draft: true
+draft: false
 tags: ["metodologia", "processi"]
 description: "In ogni reparto IT c'è qualcuno che sa tutto. Il problema non è lui — è che quella conoscenza non è mai stata scritta da nessuna parte."
 ---
