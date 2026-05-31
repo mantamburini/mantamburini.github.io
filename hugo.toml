@@ -19,25 +19,15 @@ buildFuture = false
   TocOpen = false
   hidemeta = false
 
-  [params.homeInfoParams]
-    Title = "Lo chiedo a Mario"
-    Content = """
+[params.homeInfoParams]
+  Title = "Lo chiedo a Mario"
+  Content = """
 "Chiedi a Mario."
 
-È la risposta che senti quando qualcuno si ferma alla scrivania: "Come si fa?", "Chi se ne occupa?", "Questo caso come lo gestiamo?"
+In ogni reparto IT c'è un Mario: il collega che sa tutto, risponde sempre, non sbaglia mai. È anche il rischio operativo che nessuno inserisce nel registro.
 
-Mario è il collega che sa tutto. Non perché abbia un manuale, ma perché c'è da quindici anni e ha visto tutto.
-
-Funziona, fino a quando Mario non va in ferie. O cambia lavoro. O si ammala.
-
-![Diagramma](https://kroki.io/plantuml/svg/JO-nRWCn34DtVmMHwRBS1pX3KWJerclw1n5yCYB0jWBBNlhrjM_gHX0KdtYpHhNrdDmXdF_fb48lYl0ItXcdksQ62I9TJnSd4SiNLL7m4rBGOvGWUZsZlRXWCNcU7U3lyrf0EC8hFdlv5IsqNXmdOon5Zzp6PfEM54Oh7bGaw0oLNQBpZphehGb6rwwXPoxZJHu1ltrl_oraacb_f4HuLpMJJ7wi6W22DQqouKEytMsqpyb_)
-
-La conoscenza che Mario ha in testa vale quanto un processo documentato, ma con un problema: appena Mario esce dalla porta, quella conoscenza non è più accessibile.
-
-Documentare un processo non significa produrre carta da archiviare. Significa rendere visibile come funziona l'azienda. Trasformare la conoscenza personale in conoscenza condivisa. Permettere che un processo si possa esaminare, discutere e migliorare, invece di sopravvivere solo nella testa di chi l'ha ereditato.
-
-Questo blog parla di questo: di come pensare, strutturare e mantenere la documentazione di processo in un reparto IT. Non di strumenti, non di template. Di metodo. Per chi ha un Mario in ufficio e vuole smettere di dipendere da lui.
-    """
+Questo blog parla di metodo per documentare i processi. Non di strumenti — di come si pensa, struttura e mantiene la conoscenza di un reparto IT in modo che non dipenda da nessun Mario.
+"""
 
 [markup]
   [markup.goldmark]
