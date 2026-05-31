@@ -1,0 +1,52 @@
+baseURL = "https://mantamburini.github.io/"
+languageCode = "it-it"
+title = "TITOLO DEL BLOG"
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+
+[params]
+  author = "Marcello Anselmi Tamburini"
+  description = "DESCRIZIONE BREVE DEL BLOG"
+  defaultTheme = "auto"         # light / dark / auto
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  hidemeta = false
+
+  [params.homeInfoParams]
+    Title = "TITOLO HOMEPAGE"
+    Content = "TESTO BREVE HOMEPAGE"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true             # consente HTML inline nel markdown
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+    codeFences = true
+
+[menu]
+  [[menu.main]]
+    name = "Articoli"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Chi sono"
+    url = "/about/"
+    weight = 2
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]  # JSON necessario per la ricerca
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  minMatchCharLength = 2
+  threshold = 0.4
