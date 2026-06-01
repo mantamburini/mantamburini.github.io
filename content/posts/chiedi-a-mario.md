@@ -3,7 +3,7 @@ title: "Chiedi a Mario"
 date: 2026-05-31
 draft: false
 tags: ["metodologia", "processi"]
-description: "In ogni reparto IT c'è qualcuno che sa tutto. Il problema non è lui — è che quella conoscenza non è mai stata scritta da nessuna parte."
+description: "In ogni reparto c'è qualcuno che sa tutto. Il problema non è lui, è che quella conoscenza non è mai stata scritta da nessuna parte."
 ---
 
 Lunedì mattina. Un collega si ferma alla tua scrivania o ti manda un messaggio su Teams.
