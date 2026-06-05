@@ -1,23 +1,53 @@
 ---
-title: "Quanto è Difficile Scrivere"
-date: 2026-06-01T18:39:28+02:00
-draft: true
-tags: ["italiano", "inglese", "scrittura"]
-description: ""
+title: "Quanto è difficile scrivere" 
+date: 2026-06-01 
+draft: true 
+tags: ["scrittura", "metodologia", "processi"] 
+description: "Un processo che non viene seguito è quasi sempre un problema di scrittura, non di compliance. La differenza tra scrivere per essere letti e scrivere per essere eseguiti."
 ---
 
-Mia moglie fa l'insegnante. Una cosa che molti insegnanti ripetono, alle scuole superiori, è che i ragazzi non sanno scrivere. Forse alla base c'è questo, o forse che studiare l'italiano, per alcuni è noioso (colpa dei prof?), ma fatto sta che trovare chi sa scrivere bene (e io non sono sicuramente tra questi) è difficile.
+Un collega apre il documento con la procedura di *escalation*, lo legge, e gestisce il ticket in modo diverso da come hai sempre fatto tu. Non l'ha ignorato, ma l'ha letto e ha capito una cosa diversa, ha **fatto** una cosa diversa. 
 
-![](https://kroki.io/plantuml/svg/eNo9i7sNwkAMhvub4u9yWQEKlBIJ0YDoLeGAJWOjs5WZKNgii3E0ab9HJLUsMqPe_KHiUFq8UWMYqw7H62FEPtlQL-t3LLtJtWuYG16C4LYwdJAkFTLfF9Zg1LP39LRhrJ9-iMc_sDtkLiXS3z-sVSsp)
+Succede, purtroppo. Di solito, si dice, è distrazione, superficialità, o "tanto lo so già"; ma la realtà è che - spesso - i documenti sono scritti male, dando per scontate troppe cose ("tanto questo lo sanno tutti") o usando parole troppo generiche.
 
-Il fatto è - e te ne accorgi tardi - che scrivere **serve**, dannatamente. E scrivere in modo da essere capito serve ancora di più (e parliamo di ambito lavorativo, ovviamente). Scrivere serve e quindi serve farsi capire, fare arrivare il messaggio, dare le informazioni giuste ad un livello di interpretabilità minimo.
+## Il problema non è chi legge
 
-Quindi, _scrivere_, non è semplicemente **redigere** un documento, usare delle parole e basta. Occorre mettersi nei panni di chi leggerà, di chi dovrà _eseguire_ quel processo, quella procedura.
+Scrivere un processo o una procedura pensando a come lo eseguiresti tu è l'errore più comune e meno visibile nella documentazione. Chi scrive conosce già il contesto, i casi limite, le convenzioni implicite. Riempie i buchi senza accorgersene. Il testo che produce è completo per lui, ma ambiguo per chiunque altro.
 
-Molte volte i processi e le procedure non vengono eseguiti secondo quanto scritto semplicemente perché **non si capiscono**, non si capisce quello che c'è scritto oppure è interpretabile e quindi lo eseguo secondo quanto **io** ritengo giusto o penso di ricordare.
+Il risultato pratico è che lo stesso processo, dato a cinque persone diverse, produce cinque esecuzioni leggermente diverse. Non per malafede. Per ambiguità.
 
-## Imparare a scrivere (in italiano)
+![](https://kroki.io/plantuml/svg/eNptjzEOwkAMBPt7xYpnhIJI0FBQICR6684kFsk5cpy8iX_wMS5RGhCdtTu71tajk_nUd2E9QrU7d3CJT3bMwpkRW5lG3e1DVmeYNK1XONGiHwp-X6GGRxdXcHZTCJz7QTAYz1KMn_B1om5DlobbAmrkVH5pz0gEilEt_c9tXkkeW-GkIFzIRL_ZVcL7Bcl4sAmXfTqEmnMqYz8glFV7)
 
-Qui scriviamo in italiano, quindi faremo riferimento a questa lingua, ma quello che diciamo è laico rispetto alla lingua, possiamo parlare anche di tedesco, spagnolo o - più semplicemente - di inglese.
+Per questo la documentazione non è solo un problema organizzativo, ma anche un problema di scrittura.
 
-In ogni caso è imprescindibile pensare che bisogna scrivere _bene_. Significa completo, chiaro, essenziale, rigido e non interpretabile. I grafici aiutano molto, sono comprensibili da tutti.
+## Scrivere per essere eseguiti
+
+Scrivere per essere letti e scrivere per essere eseguiti sono due cose diverse.
+
+Una relazione o una email si leggono dall'inizio alla fine (di solito) e producono una comprensione generale. Qualche ambiguità è tollerabile. 
+
+Un processo si esegue passo per passo, spesso sotto pressione, spesso da chi non ha tempo di chiedere. Ogni ambiguità è un punto in cui l'esecuzione può deviare. Dietro ogni ambiguità non chiarita c'è il rischio che il lettore, magari inconsapevolmente, possa diventare creativo, magari anche per l'imbarazzo di chiedere. 
+
+Scrivere un processo in modo che venga eseguito come previsto richiede criteri diversi da quelli che bastano per una buona email. E richiede **tempo**, pazienza, immedesimazione, richiede che si pensi a tutti i casi limite o dubbi che sono già capitato o che potrebbero capitare. Oppure richiedere che venga scritto in maniera talmente rigorosa, che casi limite non possano esistere. 
+
+## I criteri che contano
+
+**Completo.** Tutto quello che serve per eseguire il processo è nel documento. Nessuna conoscenza implicita, nessun rimando a "come si è sempre fatto", nessuna dipendenza da chi ha scritto il documento. Al limite rimandi ad altri documenti. Innanzitutto lo *scopo* del processo: "perché si fa questa cosa?"
+
+**Chiaro.** Una frase, un'azione. Soggetto esplicito. Niente costruzioni passive che nascondono chi deve fare cosa. "Il ticket viene chiuso" non dice chi lo chiude — "Il responsabile del servizio chiude il ticket" sì.
+
+**Essenziale.** Solo quello che serve per eseguire. Il contesto storico, le motivazioni, i retroscena della decisione appartengono altrove — in un documento di policy, in una nota a piè di pagina, non nel corpo del processo. Ogni riga in più è una riga che distrae.
+
+**Non interpretabile.** Il testo produce un'unica esecuzione possibile. Se una frase può essere letta in due modi, verrà letta in due modi. Riscriverla non è un optional.
+
+## Quando le parole non bastano
+
+Ci sono parti di un processo che le parole descrivono male per natura: flussi con condizioni multiple, decisioni a cascata, interazioni tra ruoli diversi.
+
+In questi casi un diagramma non è una decorazione, ma la versione più precisa del processo. Un lettore che non capisce il testo capisce spesso il diagramma. E anche chi capisce il testo usa il diagramma per verificare di aver capito la cosa giusta.
+
+Non serve uno strumento particolare. Serve la disciplina di disegnare il flusso prima di scriverlo, e di aggiornare il disegno quando il processo cambia.
+
+Scrivere bene non è una dote. È una competenza con criteri precisi, che si impara con la pratica e con l'abitudine a rileggere quello che si scrive come se non si sapesse già come va a finire.
+
+È anche la competenza più sottovalutata nella documentazione tecnica. Perché tutti sanno scrivere, nel senso che tutti sanno mettere parole in fila. Ma mettere parole in fila in modo che qualcun altro esegua esattamente quello che avevi in mente è un'altra cosa.
