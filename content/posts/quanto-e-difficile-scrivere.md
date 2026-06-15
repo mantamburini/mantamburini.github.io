@@ -6,8 +6,6 @@ draft: false
 tags: ["metodologia", "processi", "scrittura"]
 ---
 
-# Quanto è difficile scrivere!
-
 Un collega apre il documento con la procedura di *escalation*, lo legge, e gestisce il ticket in modo diverso da come hai sempre fatto tu, eppure non ha sbagliato niente… semplicemente ha *interpretato* in maniera differente quello che c'è scritto. Non c'è qualcuno che ha **torto** e/o qualcuno che ha **ragione**, è che il documento, semplicemente, è scritto male, perché lascia spazio a interpretazioni.
 
 Succede, purtroppo. Di solito, si attribuisce la cosa a distrazione, superficialità, o "tanto lo so già"; ma la realtà è che - spesso - i documenti sono scritti male, come dicevamo, dando per scontate troppe cose ("tanto questo lo sanno tutti") o usando parole troppo generiche. Quindi, l'ultimo che arriva, poraccio, è quello che ha torto. O semplicemente è quello grazie al quale il problema salta all'occhio.
