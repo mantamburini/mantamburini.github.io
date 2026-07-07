@@ -1,7 +1,6 @@
 ---
 title: Struttura di un Processo
-date: 2026-06-19 00:00
-last-modified: 2026-06-15 12:55
+date: 2026-07-06
 description: "Un documento di processo senza struttura non è un documento — è un appunto. I capitoli imprescindibili e quelli facoltativi (che facoltativi non sono davvero)."
 draft: false
 tags: ["documento","obbligatorio", "facoltativo", "docx", "versioning"]
