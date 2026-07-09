@@ -12,7 +12,11 @@ Apri Word per scrivere un processo e la prima cosa che fai è scegliere lo stile
 
 Word è uno strumento complesso che fa, principalmente, impaginazione. Non serve per redigere un testo, ma per impaginarlo. Tralasciando che ho visto fin troppe persone che non lo sanno usare e che creano solo più confusione, è anche una conseguenza della sua natura [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG): tu vedi il risultato, ma non _cosa_ lo ha generato (e ci mancherebbe, visto quanto codice usa Word!).
 
+<!--
 ![Anatomia di un file Word](https://kroki.io/plantuml/svg/eNp1k8FugzAMhu88hcVpuyC1T1Bpp90q0dNQVaVgKCKJo8RodBPvvgBdCzS9IIvf_-fkl7NzLCy3SkauqbURVijISRnSqDnlq0SwmLPQlcRZixF5IyqcGkqSBdoouv2EuKC8Vd5Pia86ePv63L_H8BvBAw1xln2QZl-eDleD7ph0Sh7jyDfdOSeL0k3GpTUZBN8M0C8Mftzekgl6hDG3EWslJ4uvpNYxqbu4nNbJ0Bx3ERaLlG2tKxfEZm6IbdLW0jfZ5kzUTOKoruMQDjo51rfpLwFTTGNPv2LxBRXGIcCobB6HWzuNvxijTZF5uGGQserZJOdah2nDcd0FkcOgUZod5lnczpIKZjXRl3m9wMzyGk76_-2jfrbcxlKOzlGiivVOZwf065JASpKAx_o4eDUxwpnYrxJQuUR4QFUzFHVZQtnqn5q0SCLUBQyuZ2_wbc0hihxb4f_EPnRhr1DWftlGDW08Q-985R_-H7j3S-s=)
+-->
+
+![Anatomia di un file OOXML](https://kroki.io/plantuml/svg/eNp1VNtqwzAMfe9XhD4OGki-oLAfGHRvY4Q01dauThxshbl_P1u2Zbt4L47O0ZEv0iFHjaPCbRY7ef6BCZv9RU7bDAvK1ght9s2oGyUl7ljw8SoXtILh_bGC_mzNLEg1ZZpBgdC-1gYd823JD183Abv86DclVy-wYHWAs-O68lk2Zn6SCtIlLEiZTaOcU45gOs542qS36-uo4HJCdVu-Ndd5Vns2afEhIBMR5OyvVPezlHfOR6LWIyMorhanjkXWa1mMV5iBBBSVfMfne5jKVvsaBHUCRPcs0gROB-4_bdeeb0utINveXVZfATDd3cOs1xZ2WZMdLLN9me1rvfO7lv1LxW2p60PvnKGbl8PBeZZj71RaEw4OZRG7MgbEOjsWBNmwZIL5eCdrOyMoKv0VSe-ngNg9AUfHhG-hiRkivSdoTbiL2eeBP-GapsuvFEaawvAeGmWN7atsGF8WZxVhZEdYLvY39QdUe5w7)
 
 Un buon modo per concentrarsi sul contenuto è liberarsi di tutto questo e occuparsi solo, appunto, del contenuto, cioè di quello che devo comunicare.
 
