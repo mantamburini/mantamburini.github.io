@@ -1,7 +1,7 @@
 baseURL = "https://mantamburini.github.io/"
-languageCode = "it-it"
+locale = "it-it"
 title = "Quando scrivere serve"
-theme = "PaperMod"
+theme = "hugo-theme-stack"
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
@@ -9,50 +9,56 @@ buildFuture = false
 [params]
   author = "Marcello Anselmi Tamburini"
   description = "Quando scrivere serve"
-  defaultTheme = "auto"         # light / dark / auto
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = false
-  ShowCodeCopyButtons = true
-  ShowToc = true
-  TocOpen = false
-  hidemeta = false
+  mainSections = ["chiedi-a-mario"]
 
-[params.homeInfoParams]
-  Title = "Lo chiedo a Mario"
-  Content = """
-"Chiedi a Mario."
+[params.sidebar]
+  emoji = "📝"
+  subtitle = "Metodo per documentare i processi IT"
+  compact = false
 
-In ogni reparto IT c'è un Mario: il collega che sa tutto, risponde sempre, non sbaglia mai. È anche il rischio operativo che nessuno inserisce nel registro.
+[params.article]
+  math = false
+  toc = true
+  readingTime = true
+  headingAnchor = true
+  mermaid.look = "classic"
 
-Questo blog parla di metodo per documentare i processi. Non di strumenti — di come si pensa, struttura e mantiene la conoscenza di un reparto IT in modo che non dipenda da nessun Mario.
-"""
+[params.colorScheme]
+  toggle = true
+  default = "auto"
+
+[[params.widgets.homepage]]
+  type = "search"
+
+[[params.widgets.homepage]]
+  type = "archives"
+  [params.widgets.homepage.params]
+    limit = 10
+
+[[params.widgets.homepage]]
+  type = "tag-cloud"
+  [params.widgets.homepage.params]
+    limit = 10
+
+[[params.widgets.page]]
+  type = "search"
+
+[[params.widgets.page]]
+  type = "toc"
+
+[[params.widgets.page]]
+  type = "tag-cloud"
+  [params.widgets.page.params]
+    limit = 10
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = true             # consente HTML inline nel markdown
+      unsafe = true
   [markup.highlight]
     style = "monokai"
     lineNos = false
     codeFences = true
 
-[menu]
-  [[menu.main]]
-    name = "Articoli"
-    url = "/posts/"
-    weight = 1
-  [[menu.main]]
-    name = "Chi sono"
-    url = "/about/"
-    weight = 2
-
 [outputs]
-  home = ["HTML", "RSS", "JSON"]  # JSON necessario per la ricerca
-
-[params.fuseOpts]
-  isCaseSensitive = false
-  shouldSort = true
-  minMatchCharLength = 2
-  threshold = 0.4
+  home = ["HTML", "RSS"]

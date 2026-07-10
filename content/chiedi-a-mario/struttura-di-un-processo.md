@@ -4,6 +4,8 @@ date: 2026-07-06
 description: "Un documento di processo senza struttura non è un documento — è un appunto. I capitoli imprescindibili e quelli facoltativi (che facoltativi non sono davvero)."
 draft: false
 tags: ["documento","obbligatorio", "facoltativo", "docx", "versioning"]
+aliases:
+  - /posts/struttura-di-un-processo/
 ---
 
 Ora siamo davanti al foglio (digitale) bianco. Panico dello scrittore. Possiamo però avere un "processo" per scrivere un "documento di processo", non sarebbe adeguato?

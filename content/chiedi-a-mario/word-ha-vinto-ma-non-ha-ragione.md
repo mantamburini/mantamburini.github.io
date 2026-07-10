@@ -4,6 +4,8 @@ date: 2026-07-07
 description: "Word non è uno strumento sbagliato, è uno strumento sproporzionato per scrivere un processo. Perché markdown costringe a pensare per struttura, non per aspetto."
 draft: false
 tags: [Editor, Markdown, Word, Scrittura]
+aliases:
+  - /posts/word-ha-vinto-ma-non-ha-ragione/
 ---
 
 Apri Word per scrivere un processo e la prima cosa che fai è scegliere lo stile del titolo. Poi combatti con una tabella che non si formatta come dici tu. Cominci a scrivere e ti viene in mente di fare un copia/incolla da un altro documento, peccato che lo stile è diverso. Allora cominci a chiederti se esiste un template aziendale ed effettivamente c'è, ma di tre anni fa con il logo sbagliato. Dopo 2 ore di lavoro la lista degli stili è diventata lunga come una Quaresima, doppioni a non finire, titoli che _sembrano_ uguali ma che non lo sono; poi arriva il momento in cui vuoi inserire un'immagine e lì la confusione diventa altissima, purissima... Passano altre ore: ora il documento è scritto in _tecnicolor_ per i continui copia/incolla da altri documenti, per immagini che hanno stili diversi e diagrammi che non c'entrano con lo scopo del documento. La comprensibilità è precipitata ed è tutta colpa di Bill Gates.

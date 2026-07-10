@@ -1,7 +1,10 @@
 ---
 title: "Chi sono"
-layout: "single"
 url: "/about/"
+menu:
+    main:
+        name: "Chi sono"
+        weight: 2
 ---
 
 All'università uno dei miei migliori amici, una volta mi disse: "Tu ha il cervello fatto a caselline"; è vero, se una cosa è fuori posto la noto, poi - a dispetto di quello che dice ogni tanto mia moglie - non ne faccio un dramma, il 90% delle volte noto, registro e lascio correre. Ma questa natura mi ha consentito, dal giorno in cui ho dovuto cambiare lavoro e (conseguentemente) ho dovuto cambiare vita, di far diventare questa caratteristica, una risorsa.

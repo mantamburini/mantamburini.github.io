@@ -4,6 +4,8 @@ date: 2026-07-10
 description: "Un diagramma dovrebbe essere facile da aggiornare quanto è facile da leggere. PlantUML, Mermaid e il caso a parte di BPMN."
 draft: true
 tags: [Editor, BPMN, "Sequence diagram", "Linguaggio dichiarativo", Mermaid, PlantUML]
+aliases:
+  - /posts/il-disegno-che-si-scrie-da-solo/
 ---
 
 Chiedi a qualcuno di disegnare un flusso e aprirà PowerPoint, trascinerà rettangoli, li allineerà a occhio, li sposterà di due pixel altre dieci volte. Poi il processo cambia e quel disegno smette di essere vero, ma nessuno lo tocca più, perché rifarlo a mano è un pomeriggio perso.

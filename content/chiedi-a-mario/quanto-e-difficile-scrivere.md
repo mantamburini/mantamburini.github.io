@@ -4,6 +4,8 @@ date: 2026-06-15
 description: Un processo che non viene seguito è quasi sempre un problema di scrittura, non di compliance. La differenza tra scrivere per essere letti e scrivere per essere eseguiti.
 draft: false
 tags: ["metodologia", "processi", "scrittura"]
+aliases:
+  - /posts/quanto-e-difficile-scrivere/
 ---
 
 Un collega apre il documento con la procedura di *escalation*, lo legge, e gestisce il ticket in modo diverso da come hai sempre fatto tu, eppure non ha sbagliato niente… semplicemente ha *interpretato* in maniera differente quello che c'è scritto. Non c'è qualcuno che ha **torto** e/o qualcuno che ha **ragione**, è che il documento, semplicemente, è scritto male, perché lascia spazio a interpretazioni.

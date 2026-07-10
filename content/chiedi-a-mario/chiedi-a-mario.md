@@ -4,6 +4,8 @@ date: 2026-05-31
 draft: false
 tags: ["metodologia", "processi"]
 description: "In ogni reparto c'è qualcuno che sa tutto. Il problema non è lui, è che quella conoscenza non è mai stata scritta da nessuna parte."
+aliases:
+  - /posts/chiedi-a-mario/
 ---
 
 Lunedì mattina. Un collega si ferma alla tua scrivania o ti manda un messaggio su Teams.
