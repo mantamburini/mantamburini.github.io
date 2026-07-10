@@ -1,4 +1,3 @@
-
 ---
 title: "Come usare un processo"
 date: 2026-07-27
