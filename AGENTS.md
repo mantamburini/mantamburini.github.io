@@ -1,162 +1,110 @@
-# CLAUDE.md — mantamburini.github.io
+# AGENTS.md — Blog Instrumenta
 
-Contesto del progetto per AI assistant. Leggi prima di fare qualsiasi cosa.
+Contesto per agenti LLM (CLI, opencode, ecc.) che operano in questa repo. Leggere prima di qualsiasi modifica.
 
----
+## 1. Cosa stai guardando
 
-## Cos'è questo repo
+Repo `mantamburini.github.io`, pubblicata via GitHub Actions → GitHub Pages. Non è un progetto nuovo: è il riavvio di un blog che esisteva già con tema PaperMod, tono ironico, contenuti su metodologia della documentazione (post tipo "Chiedi a Mario", "Word ha vinto ma non ha ragione"). Quell'impostazione è stata abbandonata dopo un paio di post — non ha retto.
 
-Blog statico Hugo con tema PaperMod. Pubblicato su GitHub Pages all'indirizzo `https://mantamburini.github.io`.
+Quello che trovi nella cartella al momento è quel primo tentativo: config Hugo con tema PaperMod, eventuali contenuti vecchi. **Non è materiale da conservare**, tranne un'eccezione (vedi §3).
 
-Autore: Marcello Anselmi Tamburini — IT Senior Service Manager, Crema (CR).
+## 2. Cosa deve diventare
 
----
+Sito personale: **Instrumenta**. Brain dump diretto di 20+ anni di esperienza in IT Operations, ITSM, Service Delivery (ruoli da Head of Operations — SPS Global, Berlin Packaging, Sopra Steria, Beta 80 Group). Target: manager in generale, non solo IT.
 
-## Struttura del repo
+Non è un blog consulenziale da LinkedIn. Non aneddoti simpatici. Contenuto su decisioni sbagliate, persone che hanno insegnato qualcosa nel modo peggiore, processi saltati, convinzioni rivelatesi sbagliate col tempo.
 
-```
-mantamburini.github.io/
-├── .github/
-│   └── workflows/
-│       └── hugo.yml          # GitHub Actions: build e deploy automatico
-├── archetypes/
-│   └── posts.md              # template frontmatter per nuovi articoli
-├── content/
-│   ├── about.md              # pagina "Chi sono"
-│   └── posts/                # articoli del blog
-├── themes/
-│   └── PaperMod/             # tema (git submodule, non toccare)
-└── hugo.toml                 # configurazione Hugo
-```
+Il nome viene dal capitolo IV della Regola di San Benedetto (*"Quae sunt instrumenta bonorum operum"*): gli strumenti concreti da esercitare ogni giorno, con costanza. Non un elenco di precetti dall'alto — coerente con "diretto, pratico, senza pretesa di guru".
 
----
+Sottotitolo: **non ancora deciso**. Non inventarne uno nel `config.toml` — lascia il campo vuoto o commentato e segnala la cosa nel README/task list della repo.
 
-## Workflow di pubblicazione
+## 3. Riutilizzo dal sito precedente: SOLO "Chi Sono"
 
-1. Scrivi o modifica un file in `content/posts/`
-2. Mentre è bozza: `draft: true` nel frontmatter
-3. Quando pronto: `draft: false`
-4. `git add . && git commit -m "post: titolo" && git push`
-5. GitHub Actions esegue Hugo e pubblica su GitHub Pages (~1 minuto)
+L'unico contenuto da portare avanti dalla versione precedente è la pagina/sezione "Chi Sono" (o "About"), se esiste nella repo attuale (es. `content/about.md`, `content/chi-sono.md`, o pagina statica equivalente — cercala prima di procedere).
 
-Anteprima locale (richiede Hugo installato):
+Regole:
 
-```bash
-hugo server -D   # -D mostra anche i draft
-```
+- Recupera il testo esistente da dove si trova nella repo (non riscriverlo da zero, non inventarlo).
+- Aggiornalo solo per coerenza col nuovo tono (diretto, niente frasi fatte) se il testo attuale è scritto nello stile ironico del vecchio blog — ma senza cambiare i fatti biografici.
+- Tutto il resto del vecchio sito (post, tema, config PaperMod) va rimosso, non migrato.
+- Se non trovi nessun contenuto "Chi Sono" preesistente nella repo, **fermati e chiedi a Marcello il testo** — non generarlo.
 
----
+## 4. Setup tecnico
 
-## Frontmatter degli articoli
+- **Generatore**: Hugo.
+- **Tema**: **Hugo Bear** (deciso — sostituisce PaperMod). Non proporre alternative, non installare Hugo Terminal.
+- **Pipeline**: GitHub Actions → GitHub Pages, invariata rispetto a prima. Verifica che il workflow esistente in `.github/workflows/` sia ancora coerente col nuovo tema (percorsi, versione Hugo, modulo del tema) e aggiornalo se necessario.
+- **Dominio**: nessun dominio custom. Resta `mantamburini.github.io`. Il "flavour tecnico" dell'URL GitHub Pages è voluto, non un difetto da correggere.
+- **Editor di riferimento**: nvim (non serve setup particolare lato repo).
+- **Installazione tema**: seguire il metodo standard Hugo Modules o git submodule per Hugo Bear — usa quello raccomandato dalla documentazione ufficiale del tema, non improvvisare varianti.
 
-```yaml
----
-title: "Titolo dell'articolo"
-date: 2026-01-15
-draft: false
-tags: ["tag1", "tag2"]
-description: "Una frase che descrive l'articolo."
----
-```
+## 5. Struttura dei contenuti da creare
 
-- `draft: true` = non pubblicato
-- `draft: false` = pubblicato al prossimo push
-- `date` determina l'ordinamento
+Alberatura confermata — sette sezioni di primo livello. Creale come sezioni Hugo (`content/<sezione>/_index.md` + struttura per i post), con slug in italiano coerenti coi titoli sotto. Non aggiungere sezioni non elencate, non riordinare.
 
-### Formato dei post
+1. **Processi**
+   - Perché lavorare per processi (sicurezza, ripetibilità, economia)
+   - I trigger per le eccezioni
+   - Misurazioni, KPI, SLA
+   - Efficientamento
+2. **Persone**
+   - Gestione operativa del team
+   - Percorsi di crescita e responsabilità
+   - Assunzioni sbagliate
+   - Gestione della crisi/incidente
+3. **Comunicazione**
+   - Verso il cliente/fornitore
+   - Verso il basso (strategia condivisa)
+   - Branding nei documenti e template
+4. **Economia e negoziazione**
+   - Accordi e contratti
+   - Vendor management
+   - Produttività delle commesse
+   - Budget e negoziazione interna
+5. **Cambiamento organizzativo**
+   - Riorganizzazioni, fusioni, cambi di management sopra di te
+6. **Reportistica**
+   - Fonti dati e come collegarcisi
+   - Scelta dello span temporale
+   - Cosa presentare per dire cosa
+   - Come presentare (formato, livello di dettaglio)
+7. **Forma mentis / strumenti**
+   - Perché markdown (e la forma mentis dietro la scelta)
+   - Semplicità come scelta, non come limite
 
-Ogni post è un file `.md` semplice nella directory `content/posts/`. Niente cartelle, niente `index.md`, niente struttura complessa. Un file, un post.
+Nota: la sezione 6 (Reportistica) è volutamente più densa delle altre — non è un difetto della struttura, non uniformare artificialmente.
 
-Questa scelta è voluta: i file devono poter essere aperti, modificati e creati con qualunque editor (Obsidian, VS Code, vim) senza dipendere da Hugo o da strumenti specifici.
+I sotto-punti elencati sono temi/possibili post, non necessariamente sotto-sezioni Hugo — a meno che il tema Bear preveda una gerarchia a due livelli che renda sensato crearle come tali. In caso di dubbio, crea solo le 7 sezioni di primo livello con `_index.md` e lascia i sotto-temi come backlog di post futuri (es. in un commento nel `_index.md` o in un file `TODO.md` nella root).
 
-Struttura tipica:
+## 6. Stile di scrittura — vincolante per qualsiasi contenuto generato
 
-```markdown
----
-title: "Titolo del post"
-date: 2026-01-15
-draft: true
-tags: ["tag1", "tag2"]
-description: "Una frase."
----
+Se produci testo di esempio, placeholder o contenuto reale per le pagine, applica queste regole (derivate dalla skill personale di Marcello, `anti-ai-writing-style`):
 
-Testo del post. Paragrafi. Qualche H2 al massimo. Niente di più.
-```
-
-Non serve architettare il contenuto in sezioni e sottosezioni come un manuale tecnico. I post possono essere lineari, narrativi, anche un singolo blocco di testo se funziona.
-
----
-
-## Contenuto del blog
-
-**Argomento**: metodologia della documentazione di processo in contesti IT aziendali. Gli strumenti sono secondari — quello che conta è il modo in cui si pensa, struttura e mantiene un processo documentato.
-
-**Pubblico**: IT manager e service manager di medie aziende italiane.
-
-**Lingua**: italiano.
-
-**Tono e stile**: vedi sezione dedicata sotto.
-
-**Temi ricorrenti**:
-
-- Ciclo di vita di un documento di processo
-- Differenza tra processo, procedura, policy
-- Il formato come scelta architetturale, non estetica
-- Responsabilità e ownership della documentazione
-- Documentazione as code
-
----
-
-## Diagrammi
-
-I diagrammi vanno come immagini linkate tramite Kroki (non codice eseguito inline):
-
-```markdown
-![Descrizione](https://kroki.io/plantuml/svg/BASE64_DEL_SORGENTE)
-```
-
-Non usare Hugo shortcode per i diagrammi.
-
----
-
-## Regole di scrittura
-
-### Parole vietate
-
-Non usare mai: delve, harness, leverage (verbo), seamlessly, robust, comprehensive, cutting-edge, state-of-the-art, empower, foster, holistic, synergy, utilize, facilitate, transformative, pivotal, crucial, navigate (metaforico), journey (metaforico), unlock, elevate, game-changer.
-
-### Pattern vietati
-
-- Aperture: "Great question!", "Certainly!", "Let's dive in.", "In today's fast-paced world…"
-- Strutture: "This isn't X, this is Y.", "X is more than just Y—it's Z.", "It's worth noting that…", "It's important to remember that…", "When it comes to X…"
-- Chiusure: "Hope this helps!", "Feel free to ask", "Let me know if you'd like me to elaborate."
-
-### Tono
-
-Diretto. Un'idea per paragrafo. Specifico invece che generico. Le opinioni si esprimono come opinioni, i fatti come fatti. Niente imballo intorno alla risposta.
-
-### Formattazione
-
-- Header H2 per sezioni principali, H3 per sottosezioni. Mai più in profondità nel testo.
-- Liste numerate solo se l'ordine conta. Bullet per 4+ elementi paralleli.
-- Bold solo per termini genuinamente critici, non per enfasi decorativa.
+- Niente aperture tipo "Ottima domanda", "Bentornati", entusiasmo posticcio.
+- Niente costruzioni "Non è solo X, è Y" o "X non è solo un tool, è un mindset".
+- Niente parole da marketing/consulenza: *leverage*, *robust*, *seamlessly*, *holistic*, *comprehensive*, *cutting-edge*, *game-changer*, ecc. (e i loro equivalenti italiani: "sinergie", "a 360 gradi", "best practice" usato come riempitivo).
+- Niente chiusure tipo "Spero che questo sia utile" o inviti a "esplorare oltre".
+- Frasi dirette, un'idea per paragrafo. Se qualcosa è complesso, spiega cosa lo rende complesso — non limitarti a etichettarlo come tale.
 - Nessuna emoji.
-- Codice sempre in fenced block con language specifier.
+- Questo vincolo si applica ancora più rigidamente qui rispetto ad altri contesti, per via del tono richiesto dal sito (diretto, senza pretesa di guru, niente linguaggio da consulente).
 
-### La regola d'oro
+Se generi solo struttura/scaffolding (file `_index.md` con front matter e titolo, senza corpo) questa sezione si applica comunque a qualsiasi testo descrittivo che scrivi.
 
-Niente che non sia verificato. Ogni affermazione verificabile va verificata. Citare le fonti quando necessario.
+## 7. Principi operativi (da rispettare in ogni scelta tecnica)
 
----
+- **KISS**: se una configurazione, un plugin o uno shortcode non è strettamente necessario, non aggiungerlo. Niente overengineering del setup Hugo.
+- Markdown-first: contenuti in `.md` semplice, front matter YAML minimo (titolo, data, sezione — non serve altro a meno che il tema Bear lo richieda).
+- Workflow reale: la scrittura avviene in una cartella locale dentro un repo Codeberg esistente, poi viene pushata su GitHub per la pubblicazione. La CLI opera direttamente nella cartella del repo GitHub Pages — non serve replicare la sincronizzazione Codeberg, è un processo manuale di Marcello a monte.
+- Se una decisione tecnica non è coperta da questo documento (es. dettagli di configurazione di Hugo Bear non specificati qui), non improvvisare in modo silenzioso: segnala la scelta fatta e perché, così Marcello può correggerla.
 
-## Aggiornamento tema
+## 8. Task per questa sessione
 
-```bash
-git submodule update --remote --merge themes/PaperMod
-git commit -am "chore: aggiorna PaperMod"
-git push
-```
+1. Ispezionare la repo attuale: individuare tema installato (PaperMod), eventuale contenuto "Chi Sono", struttura esistente.
+2. Rimuovere PaperMod e i contenuti del vecchio blog (post, config specifica del tema vecchio).
+3. Installare Hugo Bear come tema.
+4. Recuperare e portare avanti il "Chi Sono" esistente (§3) — fermarsi e chiedere se non lo trovi.
+5. Creare le 7 sezioni di primo livello (§5) con `_index.md` minimale (titolo, front matter, nessun corpo lungo salvo eventuale descrizione breve della sezione).
+6. Verificare/aggiornare il workflow GitHub Actions per il nuovo tema.
+7. Riportare un riepilogo di cosa è stato fatto, cosa è stato rimosso, e ogni scelta presa in autonomia che merita revisione (sottotitolo, dettagli di config Hugo Bear, eventuale "Chi Sono" mancante).
 
-## Aggiornare la versione di Hugo nel workflow
-
-Modifica `HUGO_VERSION` in `.github/workflows/hugo.yml`.
+Non pubblicare/mergiare automaticamente senza revisione esplicita di Marcello — questa sessione prepara lo scaffolding, non il deploy definitivo.
