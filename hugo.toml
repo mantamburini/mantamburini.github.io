@@ -1,64 +1,54 @@
 baseURL = "https://mantamburini.github.io/"
-locale = "it-it"
-title = "Quando scrivere serve"
-theme = "hugo-theme-stack"
+locale = "it-IT"
+title = "Instrumenta"
+theme = "hugo-bearblog"
+author = "Marcello Anselmi Tamburini"
 enableRobotsTXT = true
-buildDrafts = false
-buildFuture = false
 
+# Sottotitolo: non ancora deciso. Lasciato vuoto di proposito, vedi TODO.md.
 [params]
-  author = "Marcello Anselmi Tamburini"
-  description = "Quando scrivere serve"
-  mainSections = ["chiedi-a-mario"]
+  description = ""
+  dateFormat = "2006-01-02"
 
-[params.sidebar]
-  emoji = "📝"
-  subtitle = "Metodo per documentare i processi IT"
-  compact = false
-
-[params.article]
-  math = false
-  toc = true
-  readingTime = true
-  headingAnchor = true
-  mermaid.look = "classic"
-
-[params.colorScheme]
-  toggle = true
-  default = "auto"
-
-[[params.widgets.homepage]]
-  type = "search"
-
-[[params.widgets.homepage]]
-  type = "archives"
-  [params.widgets.homepage.params]
-    limit = 10
-
-[[params.widgets.homepage]]
-  type = "tag-cloud"
-  [params.widgets.homepage.params]
-    limit = 10
-
-[[params.widgets.page]]
-  type = "search"
-
-[[params.widgets.page]]
-  type = "toc"
-
-[[params.widgets.page]]
-  type = "tag-cloud"
-  [params.widgets.page.params]
-    limit = 10
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Chi sono"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Processi"
+    url = "/processi/"
+    weight = 3
+  [[menu.main]]
+    name = "Persone"
+    url = "/persone/"
+    weight = 4
+  [[menu.main]]
+    name = "Comunicazione"
+    url = "/comunicazione/"
+    weight = 5
+  [[menu.main]]
+    name = "Economia e negoziazione"
+    url = "/economia-e-negoziazione/"
+    weight = 6
+  [[menu.main]]
+    name = "Cambiamento organizzativo"
+    url = "/cambiamento-organizzativo/"
+    weight = 7
+  [[menu.main]]
+    name = "Reportistica"
+    url = "/reportistica/"
+    weight = 8
+  [[menu.main]]
+    name = "Forma mentis e strumenti"
+    url = "/forma-mentis-e-strumenti/"
+    weight = 9
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
   [markup.highlight]
-    style = "monokai"
-    lineNos = false
+    style = "friendly"
     codeFences = true
-
-[outputs]
-  home = ["HTML", "RSS"]
