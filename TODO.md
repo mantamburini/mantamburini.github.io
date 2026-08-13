@@ -7,7 +7,8 @@ Da scegliere prima del primo deploy definitivo.
 
 ## Struttura
 
-Home e "Chi sono" presenti. I post vivono in `content/blog/`, categorizzati via tag
+La Home contiene il testo "Chi sono" (la sezione /about/ è stata eliminata).
+I post vivono in `content/blog/`, categorizzati via tag
 (nessuna sezione tematica). Il primo post esiste come bozza (`draft: true`).
 
 I temi sotto sono il backlog di post futuri, non vanno creati come pagine o sezioni.
