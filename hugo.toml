@@ -20,33 +20,13 @@ enableRobotsTXT = true
     url = "/about/"
     weight = 2
   [[menu.main]]
-    name = "Processi"
-    url = "/processi/"
+    name = "Blog"
+    url = "/blog/"
     weight = 3
   [[menu.main]]
-    name = "Persone"
-    url = "/persone/"
+    name = "Tags"
+    url = "/tags/"
     weight = 4
-  [[menu.main]]
-    name = "Comunicazione"
-    url = "/comunicazione/"
-    weight = 5
-  [[menu.main]]
-    name = "Economia e negoziazione"
-    url = "/economia-e-negoziazione/"
-    weight = 6
-  [[menu.main]]
-    name = "Cambiamento organizzativo"
-    url = "/cambiamento-organizzativo/"
-    weight = 7
-  [[menu.main]]
-    name = "Reportistica"
-    url = "/reportistica/"
-    weight = 8
-  [[menu.main]]
-    name = "Forma mentis e strumenti"
-    url = "/forma-mentis-e-strumenti/"
-    weight = 9
 
 [markup]
   [markup.highlight]

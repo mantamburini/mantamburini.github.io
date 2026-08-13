@@ -7,8 +7,10 @@ Da scegliere prima del primo deploy definitivo.
 
 ## Struttura
 
-Home e "Chi sono" presenti. Le 7 sezioni esistono con `_index.md` e nessun post.
-I sotto-temi sotto sono il backlog di post futuri, non vanno creati come pagine.
+Home e "Chi sono" presenti. I post vivono in `content/blog/`, categorizzati via tag
+(nessuna sezione tematica). Il primo post esiste come bozza (`draft: true`).
+
+I temi sotto sono il backlog di post futuri, non vanno creati come pagine o sezioni.
 
 ### Processi
 - Perché lavorare per processi (sicurezza, ripetibilità, economia)
