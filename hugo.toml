@@ -5,9 +5,8 @@ theme = "hugo-bearblog"
 author = "Marcello Anselmi Tamburini"
 enableRobotsTXT = true
 
-# Sottotitolo: non ancora deciso. Lasciato vuoto di proposito, vedi TODO.md.
 [params]
-  description = ""
+  description = "Gli strumenti del mestiere, usati ogni giorno."
   dateFormat = "2006-01-02"
 
 [menu]
