@@ -33,4 +33,4 @@ Quello che era emerso era che noi eravamo qualcuno di cui ci si poteva fidare e 
 
 Questa è "La Partenza", cioè il punto da guadagnare in ogni relazione lavorativa, senza la quale diventa solo una vendita e non un cliente, come recitava un poster nella nostra azienda: "Procuratevi un cliente, non una vendita".
 
-Nella relazione di lavoro 
+Nella relazione di lavoro il rapporto di fiducia -- come in tante altre situazioni della vita -- è il centro gravitazionale. 
