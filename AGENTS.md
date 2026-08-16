@@ -50,6 +50,10 @@ Decisione presa in sessione: **niente sezioni tematiche**. Un tentativo a 7 sezi
 
 Le aree tematiche del blog (processi, persone, comunicazione, economia e negoziazione, cambiamento organizzativo, reportistica, forma mentis) restano valide come spunto per tag e post. Non vanno create come sezioni.
 
+### 5.1. Referral images 
+
+Le immagini sono prese generalmente da upslash.com\. Utilizzare rigorosamente le loro linee guida di referral compreso utm_source e utm_medium.
+
 ## 6. Stile di scrittura — vincolante per qualsiasi contenuto generato
 
 Se produci testo di esempio, placeholder o contenuto reale per le pagine, applica queste regole (derivate dalla skill personale di Marcello, `anti-ai-writing-style`):
