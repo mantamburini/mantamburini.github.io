@@ -11,6 +11,7 @@ tags = []
 +++
 
 ![](https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+> Photo by [Luke Chesser](https://unsplash.com/@lukechesser?utm_source=mantamburini@github.io&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=tuosito&utm_medium=referral)
 
 Non sempre si guadagna la fiducia di qualcuno con un percorso positivo e lineare; a volte, come tanto cinema, per esempio, ci mostra, è un percorso più a ostacoli. All'inizio della mia carriera mi sono trovato a dover gestire un servizio all'interno di un grande cliente. Il servizio in questione era guidato da persone interne, fino a quel momento, che non avevano cercato la società per cui lavoravo io all'epoca, ma si sono visti imporre dall'alto la decisione. Non erano quindi sicuramente ben disposti e sentivano la presenza di una società di consulenza esterna, una specie di minaccia. Non è che pensassero di perdere il posto di lavoro, ma forse di perdere di credibilità o si prestigio.
 
@@ -33,5 +34,3 @@ Quello che era emerso era che noi eravamo qualcuno di cui ci si poteva fidare e 
 Questa è "La Partenza", cioè il punto da guadagnare in ogni relazione lavorativa, senza la quale diventa solo una vendita e non un cliente, come recitava un poster nella nostra azienda: "Procuratevi un cliente, non una vendita".
 
 Nella relazione di lavoro 
-
-> Photo by [Luke Chesser](https://unsplash.com/it/@lukechesser) on [Unsplash](https://www.unsplash.com)
