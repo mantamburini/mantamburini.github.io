@@ -6,7 +6,7 @@ date = "2026-08-13T18:14:10+02:00"
 # description is optional
 #
 description = "Il punto di partenza."
-draft = true
+draft = true 
 tags = []
 +++
 
@@ -21,9 +21,9 @@ La riunione è cominciata nei peggiore dei modi, con la mia controparte che dich
 
 Io ero alle prime armi, ero il più giovane della stanza, arrivato da poco e senza nessuna esperienza: non avevo già diretto gruppi come quello; tuttavia, come già detto, avevo avuto un sospetto sul tema della riunione (quando vuoi cogliere qualcuno di sorpresa, non gli dici in anticipo di cosa si parlerà!), quindi sono arrivato preparato. "Grazie, mi dici come hai calcolato i dati dell'ultimo mese?"; la mia controparte mi risponde e mi da pure la risposta giusta (semplicemente ne avevamo già parlato, non mi aspettavo che avrebbe usato i *miei* dati). A questo punto sono un po' in difficoltà, ma chiedo: "E come hai calcolato i dati di riferimento dell'anno scorso?".
 
-A questo punto la mia controparte è andata in difficoltà, perché erano dati storici, che aveva già pronti, ma non si ricordava minimamente come fossero stati calcolati, e -- sicuramente -- non erano stati calcolati nello stesso modo. A questo punto lui a cominciato a dire che non era importante il *come* si calcolavano i dati, l'importante è che stavamo performando peggio, etc. ... Ma io ho preso il coraggio a due mani e ho detto: "Ti dico io come hai calcolato i dati precedenti, hai usato questi dati, estratti con questa formula, etc. ..." ma soprattutto "Io mi sono preparato, e ho estratto i dati analoghi, mese per mese" e ho portato (stampati!) dei grafici che stavano dimostrando esattamente il contrario.
+A questo punto la mia controparte è andata in difficoltà, perché erano dati storici, che aveva già pronti, ma non si ricordava minimamente come fossero stati calcolati, e -- sicuramente -- non erano stati calcolati nello stesso modo. A questo punto lui ha cominciato a dire che non era importante il *come* si calcolavano i dati, l'importante è che stavamo performando peggio, etc. ... Ma io ho preso il coraggio a due mani e ho detto: "Ti dico io come hai calcolato i dati precedenti, hai usato questi dati, estratti con questa formula, etc. ..." ma soprattutto "Io mi sono preparato, e ho estratto i dati analoghi, mese per mese" e ho portato (stampati!) dei grafici che stavano dimostrando esattamente il contrario.
 
-Avevo tutto le carte in regola per essere sbattuto fuori: ho fatto fare una brutta figura alla mia controparte, ho fatto perdere del tempo ad un dirigente molto impegnato e il mio capo tutto voleva tranne che una brutta figura con un grosso cliente appena acquisito.
+Avevo tutte le carte in regola per essere sbattuto fuori: ho fatto fare una brutta figura alla mia controparte, ho fatto perdere del tempo ad un dirigente molto impegnato e il mio capo tutto voleva tranne che una brutta figura con un grosso cliente appena acquisito.
 
 Non c'è stato l'effetto "wow", da quel momento ho dovuto sudare parecchio, ma qualcosa, nel tempo, è effettivamente cambiato: il cliente e la mia controparte hanno cominciato a capire che la strada giusta era ragionare sui dati oggettivi e condivisi. Chiariamoci: è stata una vita difficile, almeno all'inizio, perché il mio referente mi ha fatto la guerra; è stata dura, ma alla fine l'ho convinto che la mia presenza e quella della mia azienda l'avrebbe aiutato, non ostacolato. 
 
@@ -33,4 +33,4 @@ Quello che era emerso era che noi eravamo qualcuno di cui ci si poteva fidare e 
 
 Questa è "La Partenza", cioè il punto da guadagnare in ogni relazione lavorativa, senza la quale diventa solo una vendita e non un cliente, come recitava un poster nella nostra azienda: "Procuratevi un cliente, non una vendita".
 
-Da lì è cominciato un percorso durato molto tempo, fatto di continui confronti, battaglie, ma sempre più confronti alla pari. Ricordo un altro momento in cui il mio referente è intervenuto direttamente sulle mie persone e, quando gli ho detto che non era corretto, ci siamo confrontati e alla fine gli ho detto "La forma corretta non è che tu intervieni sulle mie persone, ma su di me; sarò io ad intervenire sulle mie persone". Piano piano, partendo dalla documentazione (cioè dalla oggettivazione delle operazioni) per avere un terreno comunque; siamo poi passati ai piani di formazione delle risorse, abbiamo promosso alcune risorse per farle rientrare nei gruppi specialistici. Abbiamo ridotto del 90% (ci abbiamo messo anni) il numero di allarmi, tenendo solo quelli significativi. Alla fine abbiamo introdotto **KPI** e **SLA** e, quando me ne sono andato, quello era un _servizio_.
+Da lì è cominciato un percorso durato molto tempo, fatto di continui confronti, battaglie, ma sempre più confronti alla pari. Ricordo un altro momento in cui il mio referente è intervenuto direttamente sulle mie persone e, quando gli ho detto che non era corretto, ci siamo confrontati e alla fine gli ho detto "La forma corretta non è che tu intervieni sulle mie persone, ma su di me; sarò io ad intervenire sulle mie persone". Quando me ne sono andato, quello era un _servizio_.
