@@ -7,4 +7,8 @@ Fin dall'inizio, una delle cose che mi sono venute facili è stata quella di org
 
 Nel tempo tutto questo è diventata una reale **best practice**: il percorso è stato pieno di incidenti di cui porto ancora tante cicatrici, ma che sono il tesoro che porto nello zainetto tutte le mattine.
 
-> Proudly 100% AI-free blog
+![Grid](https://images.unsplash.com/photo-1586023914901-7b36abf78de3?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
+> Photo by [Markus Spiske](https://unsplash.com/it/@markusspiske?utm_source=mantamburini@github.io&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=tuosito&utm_medium=referral)
+
+**Proudly 100% AI-free blog**
