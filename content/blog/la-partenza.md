@@ -2,7 +2,7 @@
 title: "La Partenza"
 date: 2026-08-13T18:14:10+02:00
 description: "Il punto di partenza."
-draft: true
+draft: false
 tags: ["cliente", "fiducia", "dati", "kpi", "negoziazione"]
 ---
 
