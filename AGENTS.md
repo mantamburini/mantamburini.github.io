@@ -42,6 +42,8 @@ Il testo "Chi sono" è stato recuperato dal vecchio sito e vive nel corpo di `co
 - **Dominio**: nessun dominio custom. Resta `mantamburini.github.io`. Il "flavour tecnico" dell'URL GitHub Pages è voluto, non un difetto da correggere.
 - **Editor di riferimento**: nvim (non serve setup particolare lato repo).
 
+> **Nota importante**: riferirsi scrupolosamente alle istruzioni indicate qui: https://github.com/janraasch/hugo-bearblog quando ci sarà il caso di creare nuovi *archetypes* e/o sezioni del sito
+
 ## 5. Struttura dei contenuti
 
 Decisione presa in sessione: **niente sezioni tematiche**. Un tentativo a 7 sezioni è stato abbandonato; i contenuti sono organizzati per **tag**.
