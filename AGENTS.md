@@ -43,7 +43,7 @@ Il testo "Chi sono" è stato recuperato dal vecchio sito e vive nel corpo di `co
 Decisione presa in sessione: **niente sezioni tematiche**. Un tentativo a 7 sezioni è stato abbandonato; i contenuti sono organizzati per **tag**.
 
 - I post vivono in `content/blog/` (struttura nativa del tema Bear: solo lì il tipo è `blog` e il tema mostra la data; in `content/posts/` la data sparirebbe).
-- Creare un post con `hugo new blog/nome-post.md`: usa gli archetype del tema. Nessun archetype a livello sito.
+- Creare un post con `hugo new blog/nome-post.md`: usa `archetypes/blog.md` a livello sito, che genera front matter YAML minimo (`title`, `date`, `draft`, `tags`). Gli archetype nativi del tema producono TOML, per questo esiste l'override.
 - Un post con `draft: true` nel front matter non viene pubblicato. Per vederlo in locale: `hugo server -D`.
 - I tag funzionano coi default di Hugo, senza configurazione extra: pagina `/tags/`, pagine `/tags/<tag>/`, link `#tag` nei post e nella lista `/blog/`.
 - Front matter minimo: `title`, `date`, `draft`, `tags`.
