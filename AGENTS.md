@@ -1,6 +1,8 @@
 # AGENTS.md — Blog Instrumenta
 
-Contesto per agenti LLM (CLI, opencode, ecc.) che operano in questa repo. Leggere prima di qualsiasi modifica.
+Contesto per agenti LLM (CLI, opencode, ecc.) che operano in questa repo, e per le sessioni di chat dedicate a questo progetto. Leggere prima di qualsiasi modifica o di iniziare a scrivere.
+
+Questo è l'unico documento di riferimento attivo per il progetto: la nota di pianificazione iniziale (naming, brainstorming, decisioni sul tema) è stata chiusa e archiviata nel vault una volta esaurita la fase di setup — resta consultabile lì per il "perché" storico delle scelte, ma non va più tenuta sincronizzata con questo file.
 
 ## 1. Stato attuale
 
@@ -11,6 +13,8 @@ Struttura attuale:
 - **Home** (`content/_index.md`): contiene il testo "Chi sono", recuperato dal vecchio sito. Non esiste più una pagina `/about/`.
 - **Post**: in `content/blog/`, categorizzati via tag. Nessuna sezione tematica.
 - **Menu** in `hugo.toml`: Home, Blog, Tags.
+
+Fase di setup (naming, scelta tema, sottotitolo, albero editoriale) conclusa. Da qui in avanti il lavoro è produzione: scrittura ed editing dei post.
 
 ## 2. Cosa deve diventare
 
@@ -48,11 +52,43 @@ Decisione presa in sessione: **niente sezioni tematiche**. Un tentativo a 7 sezi
 - I tag funzionano coi default di Hugo, senza configurazione extra: pagina `/tags/`, pagine `/tags/<tag>/`, link `#tag` nei post e nella lista `/blog/`.
 - Front matter minimo: `title`, `date`, `draft`, `tags`.
 
-Le aree tematiche del blog (processi, persone, comunicazione, economia e negoziazione, cambiamento organizzativo, reportistica, forma mentis) restano valide come spunto per tag e post. Non vanno create come sezioni.
+Le sette aree che seguono **non sono sezioni del sito**: sono il backlog editoriale da cui derivano i tag e i temi dei post. Guida flessibile, non vincolo rigido — soprattutto in fase di scelta dei contenuti.
 
-### 5.1. Referral images 
+1. **Processi**
+   - Perché lavorare per processi (sicurezza, ripetibilità, economia)
+   - I trigger per le eccezioni
+   - Misurazioni, KPI, SLA
+   - Efficientamento
+2. **Persone**
+   - Gestione operativa del team
+   - Percorsi di crescita e responsabilità
+   - Assunzioni sbagliate
+   - Gestione della crisi/incidente
+3. **Comunicazione**
+   - Verso il cliente/fornitore
+   - Verso il basso (strategia condivisa)
+   - Branding nei documenti e template
+4. **Economia e negoziazione**
+   - Accordi e contratti
+   - Vendor management
+   - Produttività delle commesse
+   - Budget e negoziazione interna
+5. **Cambiamento organizzativo**
+   - Riorganizzazioni, fusioni, cambi di management sopra di te
+6. **Reportistica**
+   - Fonti dati e come collegarcisi
+   - Scelta dello span temporale
+   - Cosa presentare per dire cosa
+   - Come presentare (formato, livello di dettaglio)
+7. **Forma mentis / strumenti**
+   - Perché markdown (e la forma mentis dietro la scelta)
+   - Semplicità come scelta, non come limite
 
-Le immagini sono prese generalmente da upslash.com\. Utilizzare rigorosamente le loro linee guida di referral compreso utm_source e utm_medium.
+La sezione 6 (Reportistica) è volutamente più densa delle altre — contiene sotto-temi tecnici specifici che le altre non hanno. Intenzionale, non un difetto della lista.
+
+### 5.1. Referral images
+
+Le immagini sono prese generalmente da unsplash.com. Utilizzare rigorosamente le loro linee guida di referral, compreso `utm_source` e `utm_medium`.
 
 ## 6. Stile di scrittura — vincolante per qualsiasi contenuto generato
 
@@ -80,3 +116,21 @@ Se generi solo struttura/scaffolding (file `_index.md` con front matter e titolo
 - Il deploy avviene al push su `main` via GitHub Actions. Non committare/pubblicare senza richiesta esplicita di Marcello.
 - Prima di un commit, verificare la build locale (`hugo`) e che eventuali post `draft: true` non compaiano in `public/`.
 - Se una scelta non è coperta da questo documento, segnalarla invece di decidere in silenzio (§7).
+
+## 9. Metodo editoriale — come lavorare sui singoli post
+
+Marcello scrive tutti i contenuti. Il ruolo dell'agente/di Claude è **sparring partner ed editor**, non autore: non riscrivere un post da zero al posto suo. Il lavoro è identificare problemi strutturali e discuterli, non produrre la prosa finale — quella arriva sempre da una revisione di Marcello stesso.
+
+**Disciplina editoriale principale: scena concreta, non principio dichiarato.**
+Mostrare un episodio invece di spiegarlo, lasciando che sia il lettore a trarre la conclusione, non l'autore a fornirla in chiaro.
+
+**Due difetti strutturali da segnalare quando compaiono, con nomi propri:**
+
+- *Astrazione universalizzante* (il problema del guru): generalizzare un episodio in una lezione o un principio esplicito.
+- *Enumerazione esplicativa* (il problema del framework): organizzare la riflessione in blocchi titolati che somigliano a un deliverable da consulente.
+
+Quando uno dei due compare, segnalarlo e discuterne concettualmente con Marcello — non correggere direttamente il testo al posto suo.
+
+**Un episodio per articolo.** Materiale in più (aneddoti, dettagli, digressioni) si tiene da parte per articoli futuri, non si stipa nel pezzo corrente per renderlo "completo".
+
+**"Corto vs lungo" è la cornice sbagliata.** La distinzione reale è tra un singolo episodio e un processo pluriennale — è quello, non la lunghezza in parole, a determinare la forma dell'articolo.
