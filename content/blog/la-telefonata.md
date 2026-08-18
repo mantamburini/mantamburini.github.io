@@ -3,14 +3,14 @@ title: "La Telefonata"
 date: 2026-08-17T11:09:09+02:00
 description: "Certe telefonate ti cambiano il modo di vedere"
 tags: ["stabilizzazione", "processi", "responsabilità", "crescita"]
-draft: true
+draft: false
 ---
 
 ![Phone](https://images.unsplash.com/photo-1498230870289-7561110a6e69?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 > Photo by [Quino AI](https://unsplash.com/@quinoal?utm_source=mantamburini@github.io&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=tuosito&utm_medium=referral)
 
-Stavo gestendo un servizio importante, ma con pochissima esperienza. I problemi erano davvero tanti, risorse ostili, rapporto con il cliente sempre conflittuale, numeri usati in maniera confusa che non descrivevano niente, documentazione assente e nessuno disposto (per paura di perdere prestigio) a farla. 
+Stavo gestendo un servizio importante, ma con pochissima esperienza. I problemi erano davvero tanti, risorse ostili, rapporto con il cliente sempre conflittuale, numeri usati in maniera confusa che non descrivevano niente, documentazione assente e nessuno disposto (per paura di perdere prestigio) a farla. Ogni giorno, in altre parole, dovevo districarmi tra il referente che contestava la gestione di un allarme oppure una risorsa che si metteva di traverso in una procedura oppure ancora che non si vedeva sufficientemente valorizzata vista la sua esperienza. I numeri che descrivevano il servizio, per un periodo significativo, erano prodotti sia da me che dal referente, e non tornavano mai.
 
 Io -- come detto -- ero molto inesperto e, anche, ingenuo. Si susseguono quotidiani tentativi di sistemare le cose, ma tutti in modo di fatto, _reattivi_. Un problema qui, allora la soluzione là. Domani un altro problema da un'altra parte, ancora la soluzione che sembra più logica e sensata. Ma quando costruisce le cose guardando solo al primo risultato disponibile, crei confusione e alla fine i vari elementi si allontanano tanto tra di loro che non è più possibile poi tenerli insieme.
 
@@ -24,4 +24,4 @@ L'altro cambiamento, estremamente significativo per la mia crescita, era quello 
 
 La prima cosa che ho fatto è stata quella di creare, da zero e in maniera molto istintiva, un _Project Charter_ in cui ho cominciato a descrivere il servizio e le sue caratteristiche. Ho inserito anche l'organigramma, l'elenco delle attività (non facciamo tutto, facciamo solo quello che abbiamo concordato), l'_escalation path_ per definire più chiaramente quando era necessario riferirsi a livelli superiori e documentare l'accaduto. Poi ho fatto una proposta "controcorrente" al cliente: non potevamo aspettarci che tutti sapessero fare tutto (parliamo di oltre venti risorse) quindi ho proposto di creare delle squadre per innalzare il livello di specializzazione, anche con il supporto dei gruppi di secondo livello che erano ben contenti di vedere che alcune delle loro attività più ripetitive finivano in un altro team!
 
-
+Non è stato facile virare da soggettivo a oggettivo il modo di gestire il servizio, ma, in mezzo a molte difficoltà, alla fine avevamo una struttura rigorosa, ma non rigida. Ha consentito un passaggio chiave, rimasto poi nel tempo anche dopo di me: il servizio interno, alla fine, invece che "subire" e cercare di accontentare i secondi livelli, aveva una propria voce in capitolo e dettava il proprio passo; parallelamente a quello che noi avevamo fatto, ha smesso di reagire alle richieste del cliente e di cercare di accontentare tutti, ma ha cominciato a mettere i propri paletti in funzione di una visione a lungo termine
