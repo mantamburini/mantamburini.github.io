@@ -6,3 +6,5 @@ All'università uno dei miei migliori amici, una volta mi disse: "Tu ha il cerve
 Fin dall'inizio, una delle cose che mi sono venute facili è stata quella di organizzare tutto, ma anche di fare in modo che altri potessero replicare; non è filantropia, è pigrizia. Poi - nel tempo - ho compreso la differenza tra fare qualcosa di ben organizzato e dover fare dei compromessi perché quella organizzazione fosse funzionali ad uno scopo di _business_: lo scopo di organizzare il lavoro non è l'organizzazione del lavoro, ma che il lavoro possa essere efficace ed efficiente.
 
 Nel tempo tutto questo è diventata una reale **best practice**: il percorso è stato pieno di incidenti di cui porto ancora tante cicatrici, ma che sono il tesoro che porto nello zainetto tutte le mattine.
+
+> Proudly 100% AI-free blog
